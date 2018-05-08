@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1></h1>
+<form method="POST" action="index.php">
+	<fieldset>
+		<legend>Cuenta</legend>
+		<label>Nombre</label>
+		<input type="text" name="name" required>
+		<br><br>
+		<label>Correo</label><br>
+		<input type="email" name="email">
+		<br><br>
+		<label>Contraseña</label><br>
+		<input type="password" name="password">
+		<br><br>
+	</fieldset>
+	<fieldset>
+		<legend>Informacion Usuario</legend>
+		<label>Ubicacion</label><br>
+		<select name="location">
+			<option value="PE">Peru</option>
+			<option value="ES">España</option>
+			<option value="UR">Uruguay</option>
+		</select>
+		<br><br>
+		<label>Genero</label><br>
+		<input type="radio" name="gender" value="Male"> Masculino
+		<input type="radio" name="gender" value="Female" checked>Femenino
+		<br><br>
+		<!--https://docs.google.com/presentation/d/1gA1p0hDP7ynpRl8t7nEcQBG9PkAr9YuQb99q3FJochg/edit#slide=id.g38ea878800_0_100-->
+	</fieldset>
+</form>
+</body>
+</html>
